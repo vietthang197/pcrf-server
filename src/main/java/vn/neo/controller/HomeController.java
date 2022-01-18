@@ -66,23 +66,10 @@ public class HomeController {
         Thread.sleep(1300);
         return "<?xml version='1.0' encoding='UTF-8'?>\n" +
                 "<cp_reply>\n" +
-                "    <result>0</result>\n" +
-                "    <command>listallinfo</command>\n" +
-                "    <description>Success</description>\n" +
-                "    <session>pytatsrnpqiitxpzemrihlvbqtkmaswxvhbslsz</session>\n" +
-                "    <pcrf>\n" +
-                "        <pcrf_info>\n" +
-                "            <service_name>KMNT</service_name>\n" +
-                "            <start_date>20220114163454</start_date>\n" +
-                "            <end_date>20220115182544</end_date>\n" +
-                "            <QTAVALUE>1</QTAVALUE>\n" +
-                "            <QTABALANCE>3</QTABALANCE>\n" +
-                "            <QTACONSUMPTION>0</QTACONSUMPTION>\n" +
-                "            <SRVNAME>KMNT</SRVNAME>\n" +
-                "            <SRVPKGNAME></SRVPKGNAME>\n" +
-                "        </pcrf_info>\n" +
-                "    </pcrf>\n" +
-                "    <subs/>\n" +
+                "\t<command>addservice</command>\n" +
+                "\t<result>2100</result>\n" +
+                "\t<description>FAILED</description>\n" +
+                "\t<session>qizmwgiwnofzwsfonzpfprdnsiefwuepfbfxbym</session>\n" +
                 "</cp_reply>";
     }
 
